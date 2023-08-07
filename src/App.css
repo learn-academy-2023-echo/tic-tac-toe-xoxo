@@ -1,5 +1,27 @@
+h1 {
+  text-align: center;
+}
+
 .square {
   border: 2px solid black;
   height: 100px;
   width: 100px;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 390px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  right: -35px;
+  bottom: -50px;
+}
+
+.button {
+  text-align: center;
+  position: relative;
+  bottom: -50px;
 }
