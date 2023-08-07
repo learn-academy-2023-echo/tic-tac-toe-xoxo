@@ -25,3 +25,8 @@ h1 {
   position: relative;
   bottom: -50px;
 }
+
+.condition{
+  text-align: center;
+  font-size: 2rem;
+}
