@@ -63,7 +63,7 @@ const App = () => {
         width: '100vw',
         height: '100vh',
         position: 'relative',
-        overflow: 'hidden'}}>
+        overflow: 'hidden',}}>
       <h1><span style={{color: '#0D82CE'}}>Tic</span> <span style={{color: '#CE0D4A'}}>Tac</span> <span style={{color: '#0D82CE'}}>Toe</span></h1>
       <div className="big-container">
       <div className="status">{status}</div>
