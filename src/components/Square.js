@@ -1,13 +1,13 @@
 import React from 'react'
 
 const Square = ({ square, index, handleGamePlay }) => {
-  
+  const style = square === "X" ? "square x" : "square o"
   const handleClick = () => {
-    handleGamePlay(index);
+    handleGamePlay(index)
   }
   
   return (
-    <div className="square" onClick={handleClick}>{square}</div>
+    <div className={style} onClick={handleClick}>{square}</div>
   )
 }
 export default Square
