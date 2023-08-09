@@ -58,6 +58,7 @@ const App = () => {
     <>
     <div className="main" style={{ backgroundImage: `url(${brickWall})`,
         backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         width: '100vw',
@@ -75,15 +76,17 @@ const App = () => {
         handleGamePlay={handleGamePlay}/>
       })}
       </div>
+      
       <br></br>
+      
       <div className="button-container">
       <button onClick={restartGame}>Restart Game</button>
       </div>
       </div>
       
       <footer>&copy; 2023 | Created by: Peter and Raquel</footer>
-    
-      </div>
+    </div>
+   
      
       </>
   )
